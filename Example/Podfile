@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HomeKit_Example' do
+  pod 'HomeKit', :path => '../'
+
+  target 'HomeKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
