@@ -1,0 +1,6 @@
+framework module HomeKit {
+  umbrella header "HomeKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
